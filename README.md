@@ -38,11 +38,17 @@ Work progress:
 - With the structure of the application, I started to use it on a small project
 - Implementation as it was a feature to a large application.
 - In the store, an object called searchReducer, has the following properties:
-  _ data -> List of all profiles
-  _ isSearching -> if the app is waiting the server response
-  _ page -> which page we are currently
+
+  _ data -> List of all profiles.
+  
+  _ isSearching -> if the app is waiting the server response.
+  
+  _ page -> which page we are currently.
+  
   _ totalPage -> numbers of pages. This came from a header.
+  
   _ isRendered -> true if the app change his url, false if the app got refreshed.
+  
   _ text -> the searching keywords.
   
 12:00 break.
