@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.body {
+  padding: 20px 20px 0px 20px;
+  height: 80vh;
+}
+
+.paper {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.search h4 {
+  width: 70%;
+  margin: auto;
+  padding-top: 4vh;
+}
+
+.input {
+  padding-top: 4vh;
+}
+
+.input button {
+  margin-left: 3vh;
+  vertical-align: bottom;
+  margin-bottom: 4vh;
+}
